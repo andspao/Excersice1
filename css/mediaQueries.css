@@ -1,0 +1,62 @@
+@media only screen and (max-width: 600px){
+    
+    /* HEADER */
+    .navbar {
+        position: relative;
+    }
+
+    .navbar__shopping {
+        display: none;
+    }
+
+    .navbar__menubar {
+        display: block;
+        grid-column: 8 / 9;
+        font-size: 3.2rem;
+        cursor: pointer;
+    }
+
+    .menu {
+       position: absolute;
+       display: grid;
+       align-items: center;
+       text-align: center;
+       width: 100%;
+       height: 70vh;
+       background-color: var(--primary-color);
+       margin-top: 56rem;
+       transform: translateX(170%);
+       transition: all 1s;
+    }
+
+    .navbar .menu-toggle {
+        transform: translate(70%);
+    }
+
+    /* MAIN */
+    .intro {
+        grid-column: 2 / 12;
+        grid-row: 7 / 10;
+    }
+
+    .intro__text--principal {
+        font-size: 4rem;
+    }
+    .intro__text--secondary {
+        font-size: 1.8rem;
+    }
+    .intro__text--regular {
+        font-size: 1.3rem;
+        margin-top: 5px;
+    }
+
+    /* FOOTER */
+
+    .followMe {
+        display: none;
+    }
+
+    .socialMedia {
+        text-align: center;
+    }
+}
